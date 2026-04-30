@@ -655,3 +655,76 @@ body {
   outline: 2px solid var(--color-accent);
   outline-offset: 2px;
 }
+
+/* ===== Блок контактов ===== */
+.contacts {
+  background: linear-gradient(135deg, var(--color-bg-dark) 0%, #2a2a2a 100%);
+  color: var(--color-white);
+  text-align: center;
+  padding-bottom: var(--spacing-xl);
+}
+
+.contacts .section-kicker {
+  color: rgba(255,255,255,0.7);
+}
+
+.contacts h2 {
+  color: var(--color-white);
+}
+
+.contacts p {
+  color: rgba(255,255,255,0.8);
+  margin: 0 auto var(--spacing-lg);
+  max-width: 600px;
+}
+
+.contacts-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-sm);
+  justify-content: center;
+  margin-top: var(--spacing-md);
+}
+
+.contact-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 24px;
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.15);
+  border-radius: var(--radius);
+  text-decoration: none;
+  color: var(--color-white);
+  font-weight: 500;
+  transition: all var(--transition);
+  backdrop-filter: blur(4px);
+}
+
+.contact-link:hover {
+  background: rgba(255,255,255,0.18);
+  border-color: var(--color-accent);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+}
+
+.contact-icon {
+  font-size: 1.2rem;
+  line-height: 1;
+}
+
+.contact-label {
+  font-size: 1rem;
+}
+
+/* Адаптив для мобильных */
+@media (max-width: 480px) {
+  .contacts-list {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .contact-link {
+    justify-content: center;
+  }
+}
