@@ -1,0 +1,294 @@
+
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ясность в любви — загородный ретрит цигун</title>
+    <meta
+      name="description"
+      content="Трехдневная мастерская по цигун «Ясность в любви»: глубокая практика внимания, дыхания и движения в загородном ретрите."
+    />
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="ambient-media" aria-hidden="true">
+      <canvas id="hero-sequence-canvas"></canvas>
+      <div class="ambient-shade"></div>
+    </div>
+    <svg class="icon-sprite" aria-hidden="true" focusable="false">
+      <symbol id="icon-breath" viewBox="0 0 24 24">
+        <path d="M4 13c4.2-5.7 11.8-5.7 16 0" />
+        <path d="M7 16c2.7-3.4 7.3-3.4 10 0" />
+        <path d="M10 19c1.1-1.2 2.9-1.2 4 0" />
+        <path d="M12 4v4" />
+      </symbol>
+      <symbol id="icon-lotus" viewBox="0 0 24 24">
+        <path d="M12 20c-4.4-2.4-6.6-5.4-6.6-9 3.4.3 5.6 2.5 6.6 6.6 1-4.1 3.2-6.3 6.6-6.6 0 3.6-2.2 6.6-6.6 9Z" />
+        <path d="M12 17.5C8.7 14.7 8 11.4 9.8 7.6c1.1.8 1.8 2 2.2 3.6.4-1.6 1.1-2.8 2.2-3.6 1.8 3.8 1.1 7.1-2.2 9.9Z" />
+        <path d="M12 4v3" />
+      </symbol>
+      <symbol id="icon-focus" viewBox="0 0 24 24">
+        <circle cx="12" cy="12" r="7" />
+        <circle cx="12" cy="12" r="2.5" />
+        <path d="M12 2v3" />
+        <path d="M12 19v3" />
+        <path d="M2 12h3" />
+        <path d="M19 12h3" />
+      </symbol>
+      <symbol id="icon-energy" viewBox="0 0 24 24">
+        <path d="M13 2 5 13h6l-1 9 9-13h-6l0-7Z" />
+      </symbol>
+      <symbol id="icon-path" viewBox="0 0 24 24">
+        <path d="M5 19c4-6 10-8 14-14" />
+        <path d="M7 5h12v12" />
+        <path d="M5 19h6" />
+      </symbol>
+      <symbol id="icon-heart" viewBox="0 0 24 24">
+        <path d="M12 20s-7-4.5-8.6-9.1C2.2 7.4 4.5 4.5 8 5c1.7.2 3 1.3 4 3 1-1.7 2.3-2.8 4-3 3.5-.5 5.8 2.4 4.6 5.9C19 15.5 12 20 12 20Z" />
+      </symbol>
+      <symbol id="icon-decision" viewBox="0 0 24 24">
+        <path d="M12 3v18" />
+        <path d="M5 7h8l-3 4 3 4H5V7Z" />
+        <path d="M19 5h-7" />
+        <path d="M19 19h-7" />
+      </symbol>
+      <symbol id="icon-stillness" viewBox="0 0 24 24">
+        <path d="M4 16c3-2.2 5.8-2.2 8.5 0s5.2 2.2 7.5 0" />
+        <path d="M4 11c3-2.2 5.8-2.2 8.5 0s5.2 2.2 7.5 0" />
+        <path d="M4 6c3-2.2 5.8-2.2 8.5 0s5.2 2.2 7.5 0" />
+      </symbol>
+    </svg>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Ясность в любви">
+        <span class="brand-mark"></span>
+        <span>Ясность в любви</span>
+      </a>
+      <nav class="nav" aria-label="Основная навигация">
+        <a href="#method">Метод</a>
+        <a href="#format">Формат</a>
+        <a href="#for-whom">Для кого</a>
+        <a href="#signup">Запись</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-content">
+          <p class="eyebrow">Загородный ретрит на 3 дня</p>
+          <h1 id="hero-title">
+            <span>Мастерская цигун</span>
+            <span>«Ясность в любви»</span>
+          </h1>
+          <p class="hero-lead">
+            Тонкая практика движения, дыхания и внимания для тех, кто хочет
+            замедлиться, услышать себя и вернуть ясность в отношениях, выборе и
+            жизни.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#signup">Оставить заявку</a>
+            <a class="button secondary" href="#method">Узнать о практике</a>
+          </div>
+        </div>
+        <div class="hero-facts" aria-label="Ключевые параметры ретрита">
+          <div>
+            <svg class="icon"><use href="#icon-lotus"></use></svg>
+            <strong>3 дня</strong>
+            <span>полного погружения</span>
+          </div>
+          <div>
+            <svg class="icon"><use href="#icon-breath"></use></svg>
+            <strong>8 часов</strong>
+            <span>практики ежедневно</span>
+          </div>
+          <div>
+            <svg class="icon"><use href="#icon-focus"></use></svg>
+            <strong>любой</strong>
+            <span>уровень подготовки</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="intro section">
+        <div class="section-kicker">О мастерской</div>
+        <div class="intro-grid">
+          <h2>Не силовая тренировка, а глубокая настройка сознания и тела</h2>
+          <p>
+            «Ясность в любви» — это интенсивная передача комплекса, основанного
+            на практике цигун. В центре работы: направленные движения формы,
+            визуализация, замедление дыхания до состояния глубокой тишины и
+            управление вниманием.
+          </p>
+          <p>
+            Практика выполняется стоя, в движении и в состоянии присутствия.
+            Она помогает выйти из внутреннего шума, почувствовать опору в себе
+            и мягко раскрыть чувствительность к собственному состоянию.
+          </p>
+        </div>
+      </section>
+
+      <section id="method" class="section method">
+        <div class="section-kicker">Суть метода</div>
+        <div class="split">
+          <div>
+            <h2>Комплекс для ясности, тонкого восприятия и внутренней тишины</h2>
+            <p>
+              В течение трех дней участники постепенно осваивают практику,
+              которая соединяет форму, дыхание, внимание и энергетическую
+              чувствительность. Это не про усилие и преодоление, а про точность,
+              мягкость и глубину присутствия.
+            </p>
+          </div>
+          <div class="feature-list">
+            <article>
+              <svg class="icon"><use href="#icon-path"></use></svg>
+              <span>01</span>
+              <h3>Направленные движения формы</h3>
+              <p>Медленные движения помогают собрать внимание и почувствовать тело целостно.</p>
+            </article>
+            <article>
+              <svg class="icon"><use href="#icon-breath"></use></svg>
+              <span>02</span>
+              <h3>Дыхание и внутренняя тишина</h3>
+              <p>Замедление дыхания создает состояние покоя, в котором легче услышать себя.</p>
+            </article>
+            <article>
+              <svg class="icon"><use href="#icon-energy"></use></svg>
+              <span>03</span>
+              <h3>Внимание и энергия</h3>
+              <p>Практика развивает навык удерживать фокус и тонко распознавать изменения состояния.</p>
+            </article>
+            <article>
+              <svg class="icon"><use href="#icon-lotus"></use></svg>
+              <span>04</span>
+              <h3>Лотос Будды</h3>
+              <p>Особая техника комплекса для раскрытия верхнего Дан Тяня и работы с восприятием.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="format" class="section format">
+        <div class="section-kicker">Формат</div>
+        <div class="format-band">
+          <div>
+            <h2>3 дня за городом, чтобы практика стала не идеей, а состоянием</h2>
+            <p>
+              Ретрит проходит в формате глубокой передачи комплекса: каждый день
+              вы входите в практику, закрепляете навык и отслеживаете изменения
+              в теле, дыхании, внимании и восприятии.
+            </p>
+          </div>
+          <div class="timeline">
+            <div>
+              <svg class="icon"><use href="#icon-breath"></use></svg>
+              <strong>День 1</strong>
+              <span>Вход в форму, настройка дыхания, замедление и сбор внимания.</span>
+            </div>
+            <div>
+              <svg class="icon"><use href="#icon-stillness"></use></svg>
+              <strong>День 2</strong>
+              <span>Углубление практики, работа с чувствительностью и внутренней тишиной.</span>
+            </div>
+            <div>
+              <svg class="icon"><use href="#icon-lotus"></use></svg>
+              <strong>День 3</strong>
+              <span>Целостное прохождение комплекса, интеграция состояния и личные ориентиры.</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section results">
+        <div class="section-kicker">Что меняется</div>
+        <div class="results-grid">
+          <div class="result-copy">
+            <h2>Первый эффект участники часто замечают уже после 8 часов практики</h2>
+            <p>
+              Обычно это проявляется как спокойствие, снижение внутреннего
+              напряжения, более чистое восприятие и ощущение, что решения
+              становятся ближе и проще.
+            </p>
+          </div>
+          <div class="result-items">
+            <div><svg class="icon"><use href="#icon-focus"></use></svg>Постепенное раскрытие восприятия</div>
+            <div><svg class="icon"><use href="#icon-stillness"></use></svg>Изменение внутреннего состояния</div>
+            <div><svg class="icon"><use href="#icon-energy"></use></svg>Настройка энергетической чувствительности</div>
+            <div><svg class="icon"><use href="#icon-breath"></use></svg>Формирование навыка управления вниманием</div>
+          </div>
+        </div>
+      </section>
+
+      <section id="for-whom" class="section audience">
+        <div class="section-kicker">Кому подходит</div>
+        <h2>Для тех, кто принимает решения сердцем и ясным вниманием</h2>
+        <div class="audience-grid">
+          <article>
+            <svg class="icon"><use href="#icon-decision"></use></svg>
+            <h3>В периоде выбора</h3>
+            <p>Когда важно остановиться, увидеть главное и перестать спорить с собой.</p>
+          </article>
+          <article>
+            <svg class="icon"><use href="#icon-heart"></use></svg>
+            <h3>В отношениях</h3>
+            <p>Когда хочется больше честности, мягкости и ясного контакта с собой и другим.</p>
+          </article>
+          <article>
+            <svg class="icon"><use href="#icon-focus"></use></svg>
+            <h3>В ответственности</h3>
+            <p>Предпринимателям, руководителям и специалистам, которые живут в неопределенности.</p>
+          </article>
+          <article>
+            <svg class="icon"><use href="#icon-stillness"></use></svg>
+            <h3>В духовной практике</h3>
+            <p>Тем, кто ценит внутреннюю тишину, интуицию и гармонию сознания и тела.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section host">
+        <div class="host-panel">
+          <div>
+            <p class="eyebrow">Ведущая мастерской</p>
+            <h2>Ольга Цветкова</h2>
+          </div>
+          <p>
+            Ольга проведет участников через комплекс в формате живой передачи:
+            с вниманием к состоянию группы, постепенным углублением и бережной
+            настройкой практики под разный уровень подготовки.
+          </p>
+        </div>
+      </section>
+
+      <section id="signup" class="section cta">
+        <div class="cta-inner">
+          <p class="eyebrow">Запись на ретрит</p>
+          <h2>Если внутри уже есть запрос на ясность, это хорошая точка входа</h2>
+          <p>
+            Оставьте заявку, чтобы получить даты, место проведения, стоимость и
+            условия участия в трехдневной мастерской.
+          </p>
+          <form class="lead-form" action="#" method="post">
+            <label>
+              <span>Имя</span>
+              <input type="text" name="name" autocomplete="name" placeholder="Как к вам обращаться" required />
+            </label>
+            <label>
+              <span>Телефон или мессенджер</span>
+              <input type="text" name="contact" autocomplete="tel" placeholder="+7 или @username" required />
+            </label>
+            <button class="button primary dark" type="submit">Оставить заявку</button>
+            <p class="form-status" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>Практика не является медицинской услугой и не заменяет консультацию специалиста.</p>
+      <a href="#top">Наверх</a>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
